@@ -399,7 +399,7 @@ export default function Body() {
                 <div className="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
                     <div>
                         <h1 className="text-4xl font-bold text-white">Get in Touch</h1>
-                        <p className="text-sm text-gray-300 mt-4 leading-relaxed">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
+                        <p className="text-sm text-gray-300 mt-4 leading-relaxed">Have some big idea or brand to develop and need help? Then reach out we had love to hear about your project  and provide help.</p>
 
                         <ul className="mt-12 space-y-8">
                             <li className="flex items-center">
