@@ -23,7 +23,7 @@ export default function NavigationBar() {
 
               </h1>
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2">
-                <span className="word word5">I'm a</span>{" "}
+                <span className="word word5">I am a</span>{" "}
                 <span className="word word5 text-blue-600">Front-End Developer</span>
               </h2>
 
