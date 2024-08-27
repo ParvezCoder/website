@@ -15,8 +15,7 @@ export default function NavBar() {
     <header className="text-gray-600 body-font bg-black">
       <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 ml-6 md:mb-0">
-          <Image src="/rexon.jpg" alt="logo" width={140} height={140} className="rounded mt-2" />
-          <span className="ml-3 text-xl pl-4 sm:text-2xl md:text-3xl text-white"></span>
+          <span className="ml-3 text-xl pl-4 sm:text-2xl md:text-3xl text-red-500">ReXon Solution</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center pr-6 text-white">
           <Link href="/" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">Home</Link>
