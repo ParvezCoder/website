@@ -1,4 +1,5 @@
 import Footer from "../Components/Footer";
+import IncreamentDecreament from "../Components/IncreamentDecreamentButton";
 import NavBar from "../Components/Navbar";
 
 export default function Portfolio() {
@@ -6,6 +7,7 @@ export default function Portfolio() {
 
     <>
       <NavBar />
+      <IncreamentDecreament/>
       <div style={{ display: "flex", justifyItems: "center", flex: "wrap", justifyContent: "space-around", marginTop: "20px", marginBottom: "20px", alignItems: "center", alignContent: "center" }}>
         <div style={{ height: "150px", width: "250px", backgroundColor: "blue", justifyContent: "center", alignItems: "center", alignContent: "center" ,display:"flex" }}>
           <h2>
