@@ -29,7 +29,7 @@ function IncreamentDecreament() {
                     <button type="button" className="bg-red-600 hover:bg-indigo-700 text-white text-base tracking-wide px-6 py-3 rounded-full 
                     transition duration-300 ease-in-out shadow-lg hover:shadow-xl" onClick={resetValue}>Reset 0</button>
                     <button type="button" className="bg-black hover:bg-indigo-700 text-white text-base tracking-wide px-6 py-3 rounded-full 
-                    transition duration-300 ease-in-out shadow-lg hover:shadow-xl" onClick={handleValueDecreament} >Decreament -1</button>
+                    transition duration-300 ease-in-out shadow-lg hover:shadow-xl border-2 border-blue-600" onClick={handleValueDecreament} >Decreament -1</button>
 
                 </div>
             </div>
