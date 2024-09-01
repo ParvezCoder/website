@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function NavBar() {
+export default function Navbar() {
 
   const handleDownload = () => {
     const link = document.createElement('a')
@@ -21,6 +21,7 @@ export default function NavBar() {
           <Link href="/" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">Home</Link>
           <Link href="/About" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">About Us</Link>
           <Link href="/Portfolio" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">Portfolio</Link>
+          <Link href="/WorkingProject" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">Working Project</Link>
           <Link href="/DownloadCv" onClick={handleDownload} className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black cursor-pointer">Download CV</Link>
           <Link href="/Contact" className="mr-5 text-sm sm:text-base px-2 sm:px-4 bg-green-500 py-1 text-red-500 rounded hover:bg-red-900 hover:text-white">Contact</Link>
         </nav>
