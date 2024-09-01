@@ -82,7 +82,7 @@ export default function WorkingProject() {
                     </div>
                 </div>
                 <div className="flex">
-                    <h1 className="font-bold text-white text-sm pl-4">Today's Deal </h1>
+                    <h1 className="font-bold text-white text-sm pl-4">Today Deal </h1>
                     <h1 className="font-bold text-white text-sm pl-4">Customer Service </h1>
                     <h1 className="font-bold text-white text-sm pl-4">Registry</h1>
                     <h1 className="font-bold text-white text-sm pl-4">Gift Card</h1>
