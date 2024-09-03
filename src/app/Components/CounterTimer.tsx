@@ -1,4 +1,3 @@
-
 'use client';
 import { use, useEffect, useState } from "react";
 const CounterTimer = () => {
@@ -7,8 +6,8 @@ const CounterTimer = () => {
     const [inputValue, setInputValue] = useState(0)
     const [finalValue, setFinalValue] = useState(0)
     const [forNumber, setForNumber] = useState(true)
-    const getValue = (e) => {
-        setInputValue(e.target.value)
+    const getValue = (event:  React.ChangeEvent<HTMLInputElement>) => {
+        setInputValue(Number(event.target.value))
     }
     const finalValueF = ()=>{
         setFinalValue(inputValue)
