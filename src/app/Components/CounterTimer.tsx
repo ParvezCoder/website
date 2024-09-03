@@ -22,9 +22,9 @@ const CounterTimer = () => {
         setIsRunning(true)
     }
     useEffect(() => {
-        let interval;
+        let interval :number;
         if (isRunning) {
-            interval = setInterval(() => {
+            interval = window.setInterval(() => {
                 setFinalValue((pre )=>{
                     if(pre>0){
                         return pre-1
