@@ -1,5 +1,7 @@
 'use client';
 import { use, useEffect, useState } from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 const CounterTimer = () => {
     const [start, setStart] = useState(true)
     const [isRunning, setIsRunning] = useState(false)
@@ -44,6 +46,7 @@ const CounterTimer = () => {
     }
     return (
         <>
+        <Navbar/>
             <div className="bg-blue-200 h-screen items-center justify-center flex">
                 <div className="h-96 w-96 bg-black rounded-lg flex  justify-center">
                     <div className="mt-12">
@@ -61,6 +64,7 @@ const CounterTimer = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };
