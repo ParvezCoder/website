@@ -26,7 +26,7 @@ export default function NavigationBar() {
                             <span className="word word5 text-blue-600">Front-End Developer</span>
                         </h2>
 
-                        <p className="mb-8 leading-relaxed text-justify" >
+                        <p className="mb-8 leading-relaxed text-justify mr-4" >
                             A Front-End Developer is responsible for creating the visual and interactive elements of a
                             WEBSITE or WEB Application. We use HTML, CSS, JavaScript, React.js, Next.js, Bootstrap and Tailwind.Css
                             to build responsive, user-friendly interfaces, ensuring a seamless user experience across various devices
