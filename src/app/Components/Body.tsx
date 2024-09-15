@@ -32,7 +32,7 @@ export default function NavigationBar() {
                             to build responsive, user-friendly interfaces, ensuring a seamless user experience across various devices
                             and browsers. </p>
                         <div className="flex justify-center">
-                            <button className="inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get tTe Free Guidance
+                            <button className="inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get the Free Guidance
                                 <ul className="flex flex-wrap pl-4 gap-x-5 gap-4">
                                     {/* ///////////////////////////////// Facebook Icon //////////////////////// */}
 
