@@ -78,6 +78,7 @@ export default function NavigationBar() {
                     </div>
                 </div>
             </section>
+          
             {/* //////////////////////////////////////>>>>>>>>>    Main message    <<<<<<<<<   ////////////////////////////////////////////////////// */}
             {/* ////////////////////////////////////////////////////   Start  Techmology  ////////////////////////////////////////////////////////////////////////  */}
             <div className="bg-gray-100 md:px-10 px-4 py-12  font-[sans-serif] text-center">
@@ -163,7 +164,7 @@ export default function NavigationBar() {
 
 
             {/* /////////////////////////////////////////////>>>>>>> Start about Our work <<<<<<      //////////////////////////////////////////////////////////// */}
-            <section className="text-gray-600  body-font bg-gray-100">
+            <section className="text-gray-600 overflow-hidden body-font bg-gray-100">
                 <div className="container   py-24 mx-auto">
                     <div className="flex flex-wrap  w-full mb-20">
                         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
