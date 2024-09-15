@@ -8,7 +8,7 @@ export default function Portfolio() {
     <>
       <NavBar />
       <IncreamentDecreament />
-      <div className="flex-row" style={{ display: "flex", justifyItems: "center", flexWrap:"wrap", justifyContent: "space-around", marginTop: "20px", marginBottom: "20px", alignItems: "center", alignContent: "center" }}>
+      <div className="flex-row" style={{ display: "flex", justifyItems: "center", flexWrap: "wrap", justifyContent: "space-around", marginTop: "20px", marginBottom: "20px", alignItems: "center", alignContent: "center" }}>
         <div style={{ height: "150px", width: "250px", backgroundColor: "blue", justifyContent: "center", alignItems: "center", alignContent: "center", display: "flex" }}>
           <h2>
             Working On Amazon clone

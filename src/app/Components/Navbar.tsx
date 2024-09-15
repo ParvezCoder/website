@@ -12,7 +12,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="text-gray-600 body-font bg-black">
+    <header className="text-gray-600  body-font bg-black">
       <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 ml-6 md:mb-0">
           <span className="ml-3 text-xl pl-4 sm:text-2xl md:text-3xl text-red-500">ReXon Solution</span>
