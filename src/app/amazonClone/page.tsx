@@ -1,3 +1,6 @@
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
+
 export default function AmazonClone() {
     return (
         <>
@@ -100,6 +103,7 @@ export default function AmazonClone() {
                 <h2 className="fixed bottom-24  right-5 border-4 border-red-600 bg-black text-white rounded-full p-2">back to my Website
                 </h2>
             </a>
+            <Footer/>
         </>
     );
 }
