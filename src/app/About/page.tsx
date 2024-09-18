@@ -324,7 +324,7 @@ export default function About() {
                 <p className="text-gray-500 text-xs mt-1">Director of Technology</p>
 
                 <div className="mt-4">
-                  <p className="text-gray-600 text-sm leading-relaxed">Oversees an organization's technological initiatives, ensuring
+                  <p className="text-gray-600 text-sm leading-relaxed">Oversees an organization technological initiatives, ensuring
                     alignment with business goals and driving innovation through strategic IT management.</p>
                 </div>
 
