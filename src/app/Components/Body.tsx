@@ -1,4 +1,7 @@
 "use client"; // Add this line at the top
+import React from 'react';
+
+
 import image2 from "../public/image2.jpg"
 import AiImage from "../public/Ai.png"; // Import the image
 import Image from "next/image";
@@ -11,9 +14,9 @@ export default function NavigationBar() {
             {/* //////////////////////////////////////>>>>>>>>>     end start Nav Bar    <<<<<<<<<   ////////////////////////////////////////////////////// */}
 
             <section className="text-gray-600 body-font  "  >
-                <div className="container  flex  py-24 md:flex-row flex-col items-center">
-                    <div className="lg:flex-grow md:w-1/2  ml-10 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to
+                <div className="container  flex py-8 sm:py-10 md:py-16 lg:py-20 md:flex-row flex-col items-center">
+                    <div className="lg:flex-grow md:w-1/2  ml-5 md:ml-6 lg:ml-10 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <h1 className="title-font sm:text-xl md:text-3xl text-xl mb-4 font-medium text-gray-900">Welcome to
                             <span className="word word3 text-green-600"> Parvez</span>{" "}
                             <span className="word word4 text-red-600">Ahmed</span>{" "}
                             <span className="word word5">Developer</span>
@@ -26,24 +29,18 @@ export default function NavigationBar() {
                             <span className="word word5 text-blue-600">Front-End Developer</span>
                         </h2>
 
-                        <p className="mb-8 leading-relaxed text-justify mr-4" >
+                        <p className="mb-8 leading-relaxed text-sm lg:text-lg text-justify mr-4" >
                             A Front-End Developer is responsible for creating the visual and interactive elements of a
                             WEBSITE or WEB Application. We use HTML, CSS, JavaScript, React.js, Next.js, Bootstrap and Tailwind.Css
                             to build responsive, user-friendly interfaces, ensuring a seamless user experience across various devices
                             and browsers. </p>
-                        <div className="flex justify-center">
-                            <button className="inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get the Free Guidance
+                        <div className="flex -ml-4 sm:ml-0 justify-center items-center">
+                            <button className="inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm  lg:text-lg">Get the Free Guidance
                                 <ul className="flex flex-wrap pl-4 gap-x-5 gap-4">
                                     {/* ///////////////////////////////// Facebook Icon //////////////////////// */}
 
-                                    {/* <li><a href="javascript:void(0)" className="text-xl">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="inline w-8 h-8" viewBox="0 0 512 512">
-                        <path fill="" d="M512 256c0 127.78-93.62 233.69-216 252.89V330h59.65L367 256h-71v-48.02c0-20.25 9.92-39.98 41.72-39.98H370v-63s-29.3-5-57.31-5c-58.47 0-96.69 35.44-96.69 99.6V256h-65v74h65v178.89C93.62 489.69 0 383.78 0 256 0 114.62 114.62 0 256 0s256 114.62 256 256z" data-original="#1877f2" />
-                        <path fill="#fff" d="M355.65 330 367 256h-71v-48.021c0-20.245 9.918-39.979 41.719-39.979H370v-63s-29.296-5-57.305-5C254.219 100 216 135.44 216 199.6V256h-65v74h65v178.889c13.034 2.045 26.392 3.111 40 3.111s26.966-1.066 40-3.111V330z" data-original="#ffffff" />
-                      </svg>
-                    </a></li> */}
                                     {/* ///////////////////////////////// Linkedin Icon //////////////////////// */}
-                                    <li>
+                                    <li >
                                         <a href="https://www.linkedin.com/in/parvez-ahmed-1604b92b5/" target="_blank" className="text-xl">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="inline w-8 h-8 rounded-full" viewBox="0 0 176 176">
                                                 <g data-name="Layer 2">
@@ -57,7 +54,7 @@ export default function NavigationBar() {
                                     {/* ///////////////////////////////// Github Icon //////////////////////// */}
 
 
-                                    <li>
+                                    <li  >
                                         <a href="https://github.com/ParvezCoder" target="_blank" className="text-xl">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="inline w-8 h-8 rounded-full" viewBox="0 0 24 24">
                                                 <rect width="24" height="24" fill="" rx="4" />
@@ -78,7 +75,7 @@ export default function NavigationBar() {
                     </div>
                 </div>
             </section>
-          
+
             {/* //////////////////////////////////////>>>>>>>>>    Main message    <<<<<<<<<   ////////////////////////////////////////////////////// */}
             {/* ////////////////////////////////////////////////////   Start  Techmology  ////////////////////////////////////////////////////////////////////////  */}
             <div className="bg-gray-100 md:px-10 px-4 py-12  font-[sans-serif] text-center">
@@ -167,11 +164,11 @@ export default function NavigationBar() {
             <section className="text-gray-600 overflow-hidden body-font bg-gray-100">
                 <div className="container   py-24 mx-auto">
                     <div className="flex flex-wrap  w-full mb-20">
-                        <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Our Work</h1>
+                        <div className="lg:w-1/2 w-full mb-6 lg:mb-0 flex flex-col items-center">
+                            <h1 className="sm:text-3xl text-2xl font-medium  title-font mb-2 text-gray-900">About Our Work</h1>
                             <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                         </div>
-                        <p className="lg:w-1/2 text-justify w-full leading-relaxed text-gray-500">Front-End Developers create visually engaging
+                        <p className="lg:w-1/2 text-justify w-full ml-4 md:ml-0 leading-relaxed text-gray-500">Front-End Developers create visually engaging
                             and user-friendly interfaces using HTML, CSS, and JavaScript, ensuring a seamless experience across devices
                             and browsers.  </p>
                     </div>

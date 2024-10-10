@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from "../Components/Footer";
 import NavBar from "../Components/Navbar";
 import Link from "next/link"
@@ -101,7 +102,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </Link>
-            <Link href="/weatherApp" target="_blank">
+            <Link href="https://chat.openai.com/" target="_blank">
               <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
 
                 <div className="p-6">
