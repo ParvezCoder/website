@@ -229,7 +229,7 @@ export default function About() {
       {/* /////////////////////////////////////////////>>>>>>> End Testimonial <<<<<< //////////////////////////////////////////////////////////// */}
 
       {/* /////////////////////////////////////////////>>>>>>> Start Our Team  <<<<<< //////////////////////////////////////////////////////////// */}
-      <div className="font-[sans-serif] bg-black ">
+      <div className="font-[sans-serif]  ">
         <div className="lg:max-w-6xl max-w-xl mx-auto pt-10 py-5">
           <h2 className="text-white text-3xl  font-extrabold text-center">Meet Our Leadership Team</h2>
 

@@ -574,7 +574,7 @@ export default function NavigationBar() {
             </div>
 
             {/* /////////////////////////////////////////////>>>>>>> Start Our Team  <<<<<< //////////////////////////////////////////////////////////// */}
-            <div className="font-[sans-serif] bg-black ">
+            <div className="font-[sans-serif] ">
                 <div className="lg:max-w-6xl max-w-xl mx-auto pt-10 py-5">
                     <h2 className="text-white text-3xl  font-extrabold text-center">Meet Our Leadership Team</h2>
 
@@ -751,7 +751,7 @@ export default function NavigationBar() {
             {/* /////////////////////////////////////////////>>>>>>> End  Our Team  <<<<<< //////////////////////////////////////////////////////////// */}
 
             {/* /////////////////////////////////////////////>>>>>>> Start Contact Us <<<<<< //////////////////////////////////////////////////////////// */}
-            <div className="font-[sans-serif]  mx-auto relative bg-gray-300 rounded-lg py-6">
+            {/* <div className="font-[sans-serif]  mx-auto relative bg-gray-300 rounded-lg py-6">
                 <div className="grid lg:grid-cols-3 items-center">
                     <div className="grid sm:grid-cols-2 gap-4 z-20 relative lg:left-16 max-lg:px-4">
                         <div className="flex flex-col items-center justify-center rounded-lg w-full h-44 p-4 text-center bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
@@ -812,7 +812,7 @@ export default function NavigationBar() {
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* /////////////////////////////////////////////>>>>>>> End Contact Us <<<<<< //////////////////////////////////////////////////////////// */}
             {/* /////////////////////////////////////////////>>>>>>> Start Footer <<<<<< //////////////////////////////////////////////////////////// */}
 
