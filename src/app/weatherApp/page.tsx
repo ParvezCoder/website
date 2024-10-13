@@ -39,14 +39,13 @@ function WeatherApp() {
 
 
     }
-    console.log(data)
 
 
     return (
         <>
             <Navbar />
             <div className='bg-gray-800 h-screen flex justify-center '>
-                <div className=' bg-red-800  h-[80%] p-1 sm:p-2 md:-4 mt-2 sm:mt-4 md:mt-10 text-white font-semibold md:font-bold text-sm md:text-lg rounded-lg'>
+                <div className=' bg-red-800  h-[75%] p-5 sm:p-2 md:-4 mt-2 sm:mt-4 md:mt-10 text-white font-semibold md:font-bold text-sm md:text-lg rounded-lg'>
                     <h1 className='font-bold text-2xl text-center'>Weather Widget</h1>
                     <p className='text-center  md:text-xl font-light flex justify-center'>Search for the current weather condition in your city</p>
                     <div className='flex justify-center items-center mt-4'>
