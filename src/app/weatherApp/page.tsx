@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import Clear from '../../../public/weatherImages/Clear.png'
-import Error from '../../../public/weatherImages/error.png'
+import Error from '../../../public/weatherImages/Error.png'
 import Smoke from '../../../public/weatherImages/Smoke.png'
 import Rain from '../../../public/weatherImages/Rain.png'
 import Cloud from '@/../public/weatherImages/Cloud.png'
