@@ -45,8 +45,8 @@ function WeatherApp() {
         <>
             <Navbar />
             <div className='bg-gray-800 h-screen flex justify-center '>
-                <div className=' bg-red-800  h-[75%] p-5 sm:p-2 md:-4 mt-2 sm:mt-4 md:mt-10 text-white font-semibold md:font-bold text-sm md:text-lg rounded-lg'>
-                    <h1 className='font-bold text-2xl text-center'>Weather Widget</h1>
+                <div className=' bg-red-800  h-[71%] sm:h-[80%] md:h-[85%] p-5 sm:p-2 md:-4 mt-2 sm:mt-4 md:mt-10 text-white font-semibold md:font-bold text-sm md:text-lg rounded-lg'>
+                    <h1 className='font-bold text-2xl text-center -mt-2 sm:mt-2 md:mt-4'>Weather Widget</h1>
                     <p className='text-center  md:text-xl font-light flex justify-center'>Search for the current weather condition in your city</p>
                     <div className='flex justify-center items-center mt-4'>
                         <input
@@ -69,7 +69,7 @@ function WeatherApp() {
                         {data && data.weather ?
 
                             <div className='flex flex-col items-center'>
-                                <h1 className='text-center mt-4'>The Temperature of {data.name}</h1>
+                                <h1 className='text-center mt-2 md:mt-4'>The Temperature of {data.name}</h1>
                                 <div className='mt-4 h-48 w-48'>
                                     <img src={data.weather[0].main === "Clear" ? Clear.src : ""} />
                                     <img src={data.weather[0].main === "Smoke" ? Smoke.src : ""} />
@@ -77,8 +77,8 @@ function WeatherApp() {
                                     <img src={data.weather[0].main === "Clouds" ? Cloud.src : ""} />
                                     <img src={data.weather[0].main === "Rain" ? Rain.src : ""} />
                                 </div>
-                                <p className='text-center mt-4'>{Math.floor(data.main.temp)}°C</p>
-                                <p className='text-center mt-4'>{data.weather[0].description}</p>
+                                <p className='text-center mt-2 md:mt-4'>{Math.floor(data.main.temp)}°C</p>
+                                <p className='text-center  '>{data.weather[0].description}</p>
                             </div>
                             : ""
                         }
