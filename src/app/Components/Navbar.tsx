@@ -19,7 +19,7 @@ export default function Navbar() {
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center pr-6 text-white">
           <Link href="/" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">Home</Link>
-          <Link href="/About" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">About Us</Link>
+          <Link href="/about" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">About Us</Link>
           <Link href="/Portfolio" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">Portfolio</Link>
           {/* <Link href="/WorkingProject" className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black">Working Project</Link> */}
           <Link href="/DownloadCv" onClick={handleDownload} className="mr-5 hover:text-gray-900 rounded hover:bg-white p-1 px-3 hover:text-black cursor-pointer">Download CV</Link>
