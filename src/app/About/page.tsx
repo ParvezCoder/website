@@ -57,7 +57,7 @@ export default function About() {
 
             </button>
           </div>
-          <img src="rexonL.jpg" className="w-full h-full object-cover shrink-0" />
+          <img src="rexonL.jpg" className="w-full h-full object-cover shrink-0 rounded-xl" />
         </div>
       </div>
       {/* ////////////////////////// End About section  /////////////////////////////////////// */}
