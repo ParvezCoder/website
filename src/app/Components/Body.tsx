@@ -1,10 +1,5 @@
 "use client"; // Add this line at the top
 import React from 'react';
-
-
-import image2 from "../public/image2.jpg"
-import AiImage from "../public/Ai.png"; // Import the image
-import Image from "next/image";
 import Team from './Team';
 import Testimonial from './Testimonial';
 import ServiceSection from './ServiceSection';
@@ -13,7 +8,6 @@ import OurWork from './OurWork';
 export default function NavigationBar() {
     return (
         <>
-
             {/* //////////////////////////////////////>>>>>>>>     start Nav Bar    <<<<<<<<<   ////////////////////////////////////////////////////// */}
             {/* //////////////////////////////////////>>>>>>>>>     end start Nav Bar    <<<<<<<<<   ////////////////////////////////////////////////////// */}
 
@@ -24,15 +18,11 @@ export default function NavigationBar() {
                             <span className="word word3 text-green-600"> Parvez</span>{" "}
                             <span className="word word4 text-red-600">Ahmed</span>{" "}
                             <span className="word word5">Developer</span>
-
-
-
                         </h1>
                         <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2">
                             <span className="word word5">I am a</span>{" "}
                             <span className="word word5 text-blue-600">Front-End Developer</span>
                         </h2>
-
                         <p className="mb-8 leading-relaxed text-sm lg:text-lg text-justify mr-4" >
                             A Front-End Developer is responsible for creating the visual and interactive elements of a
                             WEBSITE or WEB Application. We use HTML, CSS, JavaScript, React.js, Next.js, Bootstrap and Tailwind.Css
@@ -56,7 +46,6 @@ export default function NavigationBar() {
                                     </li>
 
                                     {/* ///////////////////////////////// Github Icon //////////////////////// */}
-
 
                                     <li  >
                                         <a href="https://github.com/ParvezCoder" target="_blank" className="text-xl">
