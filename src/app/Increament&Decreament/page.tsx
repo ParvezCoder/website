@@ -1,7 +1,5 @@
 "use client"
 import React, { useState } from "react";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
 function IncreamentDecreament() {
     const [increament, setIncreament] = useState(0)
     const handleValue = () => {
@@ -15,7 +13,6 @@ function IncreamentDecreament() {
     }
     return (
         <>
-            <Navbar />
             <div className="bg-gray-500 h-screen flex justify-center items-center ">
                 <div className="bg-black flex justify-center items-center py-10  rounded-lg">
 
@@ -31,7 +28,6 @@ function IncreamentDecreament() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

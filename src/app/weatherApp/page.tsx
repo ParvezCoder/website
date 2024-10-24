@@ -1,14 +1,11 @@
 "use client"
 import React, { useState } from 'react'
 import { FaSearch } from "react-icons/fa";
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
 import Clear from '../../../public/weatherImages/Clear.png'
 import Error from '../../../public/weatherImages/Error.png'
 import Smoke from '../../../public/weatherImages/Smoke.png'
 import Rain from '../../../public/weatherImages/Rain.png'
 import Cloud from '@/../public/weatherImages/Cloud.png'
-import { DiVim } from 'react-icons/di';
 
 function WeatherApp() {
     const [search, setSearch] = useState("")
@@ -37,7 +34,6 @@ function WeatherApp() {
     }
     return (
         <>
-            <Navbar />
             <div className='bg-gray-800 h-screen flex justify-center '>
                 <div className=' bg-red-800  h-[71%] sm:h-[80%] md:h-[83%] p-5 sm:p-2 md:-4 mt-2 sm:mt-4 md:mt-8 text-white font-semibold md:font-bold text-sm md:text-lg rounded-lg'>
                     <h1 className='font-bold text-2xl text-center -mt-2 sm:mt-2 md:mt-4'>Weather Widget</h1>
@@ -83,7 +79,6 @@ function WeatherApp() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }
