@@ -22,10 +22,10 @@ export default function NavigationBar() {
                         </h1>
                         <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2">
                             <span className="">I am a</span>{" "}
-                            <span className=" text-blue-600">Front-End Developer</span>
+                            <span className=" text-blue-600">Full Stack Developer</span>
                         </h2>
                         <p className="mb-8 leading-relaxed text-sm lg:text-lg text-justify mr-4" >
-                            A Front-End Developer is responsible for creating the visual and interactive elements of a
+                            A full Stack Developer is responsible for creating the visual and interactive elements of a
                             WEBSITE or WEB Application. We use HTML, CSS, JavaScript, React.js, Next.js, Bootstrap and Tailwind.Css
                             to build responsive, user-friendly interfaces, ensuring a seamless user experience across various devices
                             and browsers. </p>
