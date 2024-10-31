@@ -3,6 +3,7 @@ import Team from "../Components/Team";
 import Testimonial from "../Components/Testimonial";
 import OurWork from "../Components/OurWork";
 import ServiceSection from "../Components/ServiceSection";
+import IconGroup from "../Components/IconGroup";
 
 export default function About() {
   return (
@@ -33,29 +34,10 @@ export default function About() {
               technology landscape.</p>
 
 
-            <button type="button"
-              className="px-5 py-3 mt-8 rounded text-white text-sm tracking-wider font-semibold border-none outline-none bg-blue-600 hover:bg-blue-700">
-              Get the Free Guide
-              {/* ///////////////////////////////////// start Linkedin icon //////////////////////////////////////////////////// */}
+            <div className="flex -ml-4 sm:ml-0 justify-center sm:justify-start sm:mt-4 md:mt-6 lg:mt-12 items-center">
+              <IconGroup />
+            </div>
 
-              <a href="https://www.linkedin.com/in/parvez-ahmed-1604b92b5/" target="_blank" className="text-xl px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="inline w-8 h-8 rounded-full" viewBox="0 0 176 176">
-                  <g data-name="Layer 2">
-                    <rect width="176" height="176" fill="" data-original="#0077b5" rx="24" />
-                    <path fill="#fff" d="M63.4 48a15 15 0 1 1-15-15 15 15 0 0 1 15 15zM60 73v66.27a3.71 3.71 0 0 1-3.71 3.73H40.48a3.71 3.71 0 0 1-3.72-3.72V73a3.72 3.72 0 0 1 3.72-3.72h15.81A3.72 3.72 0 0 1 60 73zm82.64 34.5v32.08a3.41 3.41 0 0 1-3.42 3.42h-17a3.41 3.41 0 0 1-3.42-3.42v-31.09c0-4.64 1.36-20.32-12.13-20.32-10.45 0-12.58 10.73-13 15.55v35.86A3.42 3.42 0 0 1 90.3 143H73.88a3.41 3.41 0 0 1-3.41-3.42V72.71a3.41 3.41 0 0 1 3.41-3.42H90.3a3.42 3.42 0 0 1 3.42 3.42v5.78c3.88-5.82 9.63-10.31 21.9-10.31 27.18 0 27.02 25.38 27.02 39.32z" data-original="#ffffff" />
-                  </g>
-                </svg>
-              </a>
-              {/* ///////////////////////////////////// github icon //////////////////////////////////////////////////// */}
-              <a href="https://github.com/ParvezCoder" target="_blank" className="text-xl">
-                <svg xmlns="http://www.w3.org/2000/svg" className="inline w-8 h-8 rounded-full" viewBox="0 0 24 24">
-                  <rect width="24" height="24" fill="" rx="4" />
-                  <path fill="#fff" d="M12 2C6.477 2 2 6.484 2 12.02c0 4.428 2.865 8.185 6.839 9.503.5.09.683-.217.683-.483 0-.238-.009-.868-.013-1.704-2.782.605-3.37-1.343-3.37-1.343-.454-1.157-1.109-1.466-1.109-1.466-.906-.62.069-.607.069-.607 1.002.07 1.528 1.03 1.528 1.03.89 1.526 2.34 1.086 2.91.831.09-.647.349-1.086.636-1.337-2.22-.253-4.555-1.113-4.555-4.951 0-1.092.39-1.984 1.029-2.682-.103-.253-.447-1.271.098-2.65 0 0 .84-.27 2.75 1.026A9.562 9.562 0 0112 6.845c.85.004 1.705.115 2.504.336 1.91-1.296 2.75-1.025 2.75-1.025.546 1.378.202 2.396.1 2.65.64.698 1.027 1.59 1.027 2.682 0 3.847-2.339 4.695-4.566 4.944.358.308.678.918.678 1.852 0 1.336-.012 2.417-.012 2.746 0 .268.18.577.688.48A10.024 10.024 0 0022 12.019C22 6.484 17.523 2 12 2z" />
-                </svg>
-              </a>
-              {/* //////////////////////////////////////////// end Github icon //////////////////////////////////// */}
-
-            </button>
           </div>
           <img src="rexonL.jpg" className="w-full h-full object-cover shrink-0 rounded-xl" />
         </div>

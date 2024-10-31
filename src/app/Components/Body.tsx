@@ -1,10 +1,10 @@
-"use client"; // Add this line at the top
-import React from 'react';
 import Team from './Team';
 import Testimonial from './Testimonial';
 import ServiceSection from './ServiceSection';
 import OurWork from './OurWork';
 import ContactUs from './ContactUs';
+import IconGroup from './IconGroup';
+import TopTechnology from './TopTechnology/TopTechnology';
 
 export default function NavigationBar() {
     return (
@@ -16,52 +16,22 @@ export default function NavigationBar() {
                 <div className="container  flex py-8 sm:py-10 md:py-16 lg:py-20 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2  ml-5 md:ml-6 lg:ml-10 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         <h1 className="title-font sm:text-xl md:text-3xl text-xl mb-4 font-medium text-gray-900">Welcome to
-                            <span className="word word3 text-green-600"> Parvez</span>{" "}
-                            <span className="word word4 text-red-600">Ahmed</span>{" "}
-                            <span className="word word5">Developer</span>
+                            <span className=" text-green-600"> Parvez</span>{" "}
+                            <span className=" text-red-600">Ahmed</span>{" "}
+                            <span className="">Developer</span>
                         </h1>
                         <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2">
-                            <span className="word word5">I am a</span>{" "}
-                            <span className="word word5 text-blue-600">Front-End Developer</span>
+                            <span className="">I am a</span>{" "}
+                            <span className=" text-blue-600">Front-End Developer</span>
                         </h2>
                         <p className="mb-8 leading-relaxed text-sm lg:text-lg text-justify mr-4" >
                             A Front-End Developer is responsible for creating the visual and interactive elements of a
                             WEBSITE or WEB Application. We use HTML, CSS, JavaScript, React.js, Next.js, Bootstrap and Tailwind.Css
                             to build responsive, user-friendly interfaces, ensuring a seamless user experience across various devices
                             and browsers. </p>
+                        {/* //////////////////////////////////// get the free guidance /////////////////////// */}
                         <div className="flex -ml-4 sm:ml-0 justify-center items-center">
-                            <button className="inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-sm  lg:text-lg">Get the Free Guidance
-                                <ul className="flex flex-wrap pl-4 gap-x-5 gap-4">
-                                    {/* ///////////////////////////////// Facebook Icon //////////////////////// */}
-
-                                    {/* ///////////////////////////////// Linkedin Icon //////////////////////// */}
-                                    <li >
-                                        <a href="https://www.linkedin.com/in/parvez-ahmed-1604b92b5/" target="_blank" className="text-xl">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="inline w-8 h-8 rounded-full" viewBox="0 0 176 176">
-                                                <g data-name="Layer 2">
-                                                    <rect width="176" height="176" fill="" data-original="#0077b5" rx="24" />
-                                                    <path fill="#fff" d="M63.4 48a15 15 0 1 1-15-15 15 15 0 0 1 15 15zM60 73v66.27a3.71 3.71 0 0 1-3.71 3.73H40.48a3.71 3.71 0 0 1-3.72-3.72V73a3.72 3.72 0 0 1 3.72-3.72h15.81A3.72 3.72 0 0 1 60 73zm82.64 34.5v32.08a3.41 3.41 0 0 1-3.42 3.42h-17a3.41 3.41 0 0 1-3.42-3.42v-31.09c0-4.64 1.36-20.32-12.13-20.32-10.45 0-12.58 10.73-13 15.55v35.86A3.42 3.42 0 0 1 90.3 143H73.88a3.41 3.41 0 0 1-3.41-3.42V72.71a3.41 3.41 0 0 1 3.41-3.42H90.3a3.42 3.42 0 0 1 3.42 3.42v5.78c3.88-5.82 9.63-10.31 21.9-10.31 27.18 0 27.02 25.38 27.02 39.32z" data-original="#ffffff" />
-                                                </g>
-                                            </svg>
-                                        </a>
-                                    </li>
-
-                                    {/* ///////////////////////////////// Github Icon //////////////////////// */}
-
-                                    <li  >
-                                        <a href="https://github.com/ParvezCoder" target="_blank" className="text-xl">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="inline w-8 h-8 rounded-full" viewBox="0 0 24 24">
-                                                <rect width="24" height="24" fill="" rx="4" />
-                                                <path fill="#fff" d="M12 2C6.477 2 2 6.484 2 12.02c0 4.428 2.865 8.185 6.839 9.503.5.09.683-.217.683-.483 0-.238-.009-.868-.013-1.704-2.782.605-3.37-1.343-3.37-1.343-.454-1.157-1.109-1.466-1.109-1.466-.906-.62.069-.607.069-.607 1.002.07 1.528 1.03 1.528 1.03.89 1.526 2.34 1.086 2.91.831.09-.647.349-1.086.636-1.337-2.22-.253-4.555-1.113-4.555-4.951 0-1.092.39-1.984 1.029-2.682-.103-.253-.447-1.271.098-2.65 0 0 .84-.27 2.75 1.026A9.562 9.562 0 0112 6.845c.85.004 1.705.115 2.504.336 1.91-1.296 2.75-1.025 2.75-1.025.546 1.378.202 2.396.1 2.65.64.698 1.027 1.59 1.027 2.682 0 3.847-2.339 4.695-4.566 4.944.358.308.678.918.678 1.852 0 1.336-.012 2.417-.012 2.746 0 .268.18.577.688.48A10.024 10.024 0 0022 12.019C22 6.484 17.523 2 12 2z" />
-                                            </svg>
-                                        </a>
-                                    </li>
-
-
-                                    {/* /////////////////////////////////  end github Icon //////////////////////// */}
-                                </ul>
-
-                            </button>
+                            <IconGroup />
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -71,91 +41,10 @@ export default function NavigationBar() {
             </section>
 
             {/* //////////////////////////////////////>>>>>>>>>    Main message    <<<<<<<<<   ////////////////////////////////////////////////////// */}
-            {/* ////////////////////////////////////////////////////   Start  Techmology  ////////////////////////////////////////////////////////////////////////  */}
-            <div className="bg-gray-100 md:px-10 px-4 py-12  font-[sans-serif] text-center">
-                <h2 className="text-4xl font-extrabold text-gray-800 mb-5 ">Top Technology in 2024</h2>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-20" >The world is rapidly changing and moving towards AI and robotics.</p>
-
-                <div className="max-md:max-w-lg mx-auto text-center">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <div className="bg-gradient-to-b from-indigo-800 to-indigo-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                            <img src="AAi.png" alt="Blog Post 1" className="w-full h-64 object-cover" />
-                            <div className="p-6">
-                                <h3 className="text-2xl font-semibold mb-2">AI Robot</h3>
-                                <p className="text-sm opacity-75">
-                                    An AI robot is a physical or virtual entity equipped with artificial intelligence.</p>
-                                <a href="javascript:void(0);" className="mt-4 inline-block text-pink-200 text-sm hover:underline">Read More</a>
-
-                            </div>
-                        </div>
-
-
-
-                        <div className="bg-gradient-to-b from-purple-800 to-purple-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                            <img src="AI11.jpg" alt="Blog Post 2" className="w-full h-64 object-cover" />
-                            <div className="p-6">
-                                <h3 className="text-xl font-semibold mb-2">Artificial intelligence </h3>
-                                <p className="text-sm opacity-75">AI is a set of technologies that enable computers to perform a variety of advanced
-                                    functions. </p>
-                                <a href="javascript:void(0);" className="mt-4 inline-block text-pink-200 text-sm hover:underline">Read More</a>
-                            </div>
-                        </div>
-
-                        <div className="bg-gradient-to-b from-teal-800 to-teal-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                            <img src="/chatbot2.jpg" alt="Blog Post 3" className="w-full h-64 object-cover" />
-                            <div className="p-6">
-                                <h3 className="text-2xl font-semibold mb-2">AI ChatBot</h3>
-                                <p className="text-sm opacity-75"> AI chatbot is a set of technologies that are based
-                                    primarily on machine learning and deep learning.</p>
-                                <a href="javascript:void(0);" className="mt-4 inline-block text-green-200 text-sm hover:underline">Read More</a>
-                            </div>
-                        </div>
-
-                        <div className="bg-gradient-to-b from-indigo-800 to-indigo-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                            <img src="chatbot4.jpg" alt="Blog Post 1" className="w-full h-64 object-cover" />
-                            <div className="p-6">
-                                <h3 className="text-2xl font-semibold mb-2">Blockchain</h3>
-                                <p className="text-sm opacity-75">
-                                    Blockchain is a decentralized and distributed digital ledger technology.</p>
-                                <a href="javascript:void(0);" className="mt-4 inline-block text-pink-200 text-sm hover:underline">Read More</a>
-
-                            </div>
-                        </div>
-
-                        <div className="bg-gradient-to-b from-purple-800 to-purple-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                            <img src="software.jpg" alt="Blog Post 2" className="w-full h-64 object-cover" />
-                            <div className="p-6">
-                                <h3 className="text-2xl font-semibold mb-2">Internet of Things</h3>
-                                <p className="text-sm opacity-75 text-justify">IoT refers to the network of
-                                    interconnected devices  and systems that communicate and exchange the data.</p>
-                                <a href="javascript:void(0);" className="mt-4 inline-block text-pink-200 text-sm hover:underline">Read More</a>
-                            </div>
-                        </div>
-
-
-                        <div className="bg-gradient-to-b from-teal-800 to-teal-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                            <img src="clould.jpg" alt="Blog Post 3" className="w-full h-64 object-cover" />
-                            <div className="p-6">
-                                <h3 className="text-2xl font-semibold mb-2">Clould Computing</h3>
-                                <p className="text-sm opacity-75">Cloud computing is a technology that delivers computing resources
-                                    and services over the internet.</p>
-                                <a href="javascript:void(0);" className="mt-4 inline-block text-green-200 text-sm hover:underline">Read More</a>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-
-
-                </div>
-            </div>
-            {/* ///////////////////////////////////////////////////>>>>> technology end <<<<<<< ////////////////////////////////////////////////////// */}
-
+           <TopTechnology/>
 
             {/* /////////////////////////////////////////////>>>>>>> Start about Our work <<<<<<      //////////////////////////////////////////////////////////// */}
-          <OurWork/>
+            <OurWork />
             {/* /////////////////////////////////////////////>>>>>>> end  about Our work <<<<<<      //////////////////////////////////////////////////////////// */}
 
             {/* /////////////////////////////////////////////>>>>>>> start Our Services <<<<<<      //////////////////////////////////////////////////////////// */}
@@ -430,7 +319,7 @@ export default function NavigationBar() {
             {/* /////////////////////////////////////////////>>>>>>> End  Our Team  <<<<<< //////////////////////////////////////////////////////////// */}
 
             {/* /////////////////////////////////////////////>>>>>>> Start Contact Us <<<<<< //////////////////////////////////////////////////////////// */}
-           <ContactUs/>
+            <ContactUs />
             {/* /////////////////////////////////////////////>>>>>>> End Contact Us <<<<<< //////////////////////////////////////////////////////////// */}
             {/* /////////////////////////////////////////////>>>>>>> Start Footer <<<<<< //////////////////////////////////////////////////////////// */}
 
@@ -439,34 +328,6 @@ export default function NavigationBar() {
 
 
 
-
-
-            <style jsx>{`
-  .word {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-  }
-  .word1 {
-    animation-delay: 0s;
-  }
-  .word2 {
-    animation-delay: 1s;
-  }
-  .word3 {
-    animation-delay: 2s;
-  }
-  .word4 {
-    animation-delay: 3s;
-  }
-  .word5 {
-    animation-delay: 4s;
-  }
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
-  }
-`}</style>
 
         </>
     );
