@@ -26,8 +26,8 @@ export default function Footer() {
 
                     <div className="space-y-4">
                         <h4 className="text-lg font-semibold mb-6 text-white">Contact Us</h4>
-                        <p className="text-gray-400 text-base">123 Main Street</p>
-                        <p className="text-gray-400 text-base">City, State, Country</p>
+                        <p className="text-gray-400 text-base">Office 7, Sunset Boulevard</p>
+                        <p className="text-gray-400 text-base">Phase 2 DHA,  Karachi</p>
                         <p className="text-gray-400 text-base">parvezCoder786@gmail.com</p>
                         <p className="text-gray-400 text-base">+92 305 288 7779</p>
                     </div>
@@ -36,12 +36,24 @@ export default function Footer() {
                         <h4 className="text-lg font-semibold mb-6 text-white">Follow Us</h4>
 
                         <ul className="flex flex-wrap gap-x-5 gap-4">
-                            <li><a href="https://www.facebook.com/enginer.bhutto?mibextid=ZbWKwL" target="_blank" className="text-xl">
+                            {/* ////////////////////////////////////// facebook ///////////////////////// */}
+                            <li><a href="https://www.facebook.com/profile.php?id=61567716489648&is_tour_completed" target="_blank" className="text-xl">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="inline w-6 h-6" viewBox="0 0 512 512">
                                     <path fill="#1877f2" d="M512 256c0 127.78-93.62 233.69-216 252.89V330h59.65L367 256h-71v-48.02c0-20.25 9.92-39.98 41.72-39.98H370v-63s-29.3-5-57.31-5c-58.47 0-96.69 35.44-96.69 99.6V256h-65v74h65v178.89C93.62 489.69 0 383.78 0 256 0 114.62 114.62 0 256 0s256 114.62 256 256z" data-original="#1877f2" />
                                     <path fill="#fff" d="M355.65 330 367 256h-71v-48.021c0-20.245 9.918-39.979 41.719-39.979H370v-63s-29.296-5-57.305-5C254.219 100 216 135.44 216 199.6V256h-65v74h65v178.889c13.034 2.045 26.392 3.111 40 3.111s26.966-1.066 40-3.111V330z" data-original="#ffffff" />
                                 </svg>
                             </a></li>
+                            {/* //////////////////////////////////// whatsapp ///////////////////////////// */}
+
+                            <a href="https://wa.me/923052887779" target="_blank" className="text-xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="inline w-6 h-6" viewBox="0 0 24 24">
+                                    <rect width="24" height="24" fill="#0077b5" rx="4" />
+                                    <path fill="#fff" d="M16.2 13.6c-.27-.14-1.58-.78-1.82-.87s-.42-.14-.61.14-.7.87-.85 1.05c-.15.17-.31.19-.58.07-.27-.14-1.12-.42-2.13-1.19-.78-.61-1.3-1.35-1.45-1.58-.15-.27-.02-.42.11-.56.12-.13.26-.34.39-.5.13-.17.17-.28.26-.47.08-.2.04-.37-.02-.52-.07-.15-.61-1.47-.83-2.05-.21-.5-.43-.43-.6-.44h-.52c-.17 0-.43.06-.66.3-.22.23-.86.85-.86 2.08s.88 2.41 1.01 2.57c.13.17 1.74 2.78 4.21 3.88.59.25 1.06.4 1.42.52.6.2 1.15.17 1.59.1.48-.07 1.48-.6 1.68-1.18.2-.57.2-1.07.14-1.17-.06-.1-.23-.17-.48-.29zM12.03 2C6.48 2 2.03 6.48 2.03 12c0 1.94.5 3.73 1.37 5.31L2 22l4.79-1.25C8.28 21.5 10.09 22 12.03 22c5.52 0 10-4.48 10-10s-4.48-10-10-10zm0 18c-1.76 0-3.39-.5-4.77-1.36l-.34-.2-2.84.74.76-2.77-.22-.35C4.52 15.39 4 13.76 4 12 4 7.59 7.58 4 12.03 4c4.42 0 8 3.59 8 8s-3.58 8-8 8z" />
+                                </svg>
+                            </a>
+
+
+
                             {/* ///////////////////////////////// Linkedin Icon //////////////////////// */}
                             <li>
                                 <a href="https://www.linkedin.com/in/parvez-ahmed-1604b92b5/" target="_blank" className="text-xl">
@@ -72,11 +84,10 @@ export default function Footer() {
 
                             {/* /////////////////////////////////  X icon Icon //////////////////////// */}
 
-                            {/* <li><a href="javascript:void(0)" className="text-xl">
-          <svg xmlns="http://www.w3.org/2000/svg" className="inline w-6 h-6" viewBox="0 0 1227 1227">
-            <path d="M613.5 0C274.685 0 0 274.685 0 613.5S274.685 1227 613.5 1227 1227 952.315 1227 613.5 952.315 0 613.5 0z" data-original="#000000" />
-            <path fill="#fff" d="m680.617 557.98 262.632-305.288h-62.235L652.97 517.77 470.833 252.692H260.759l275.427 400.844-275.427 320.142h62.239l240.82-279.931 192.35 279.931h210.074L680.601 557.98zM345.423 299.545h95.595l440.024 629.411h-95.595z" data-original="#ffffff" />
-          </svg></a></li> */}
+
+
+
+
                         </ul>
 
                     </div>

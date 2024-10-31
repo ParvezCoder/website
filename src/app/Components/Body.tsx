@@ -185,7 +185,7 @@ export default function NavigationBar() {
                             <p className="text-gray-600 text-xs mt-1">15 Days</p>
                         </div>
                         <div className="mt-6">
-                            <h3 className="text-gray-800 text-4xl font-semibold">$200</h3>
+                            <h3 className="text-gray-800 text-4xl font-semibold">$1000</h3>
                             <p className="text-gray-600 text-xs mt-1">3  Reviews</p>
                             <p className="text-xs mt-1 text-red-500">If Project is complex then we will discuse further</p>
 
@@ -205,7 +205,7 @@ export default function NavigationBar() {
                             <p className="text-gray-600 text-xs mt-1">15 Days</p>
                         </div>
                         <div className="mt-6">
-                            <h3 className="text-gray-800 text-4xl font-semibold">$200</h3>
+                            <h3 className="text-gray-800 text-4xl font-semibold">$999</h3>
                             {/* <p className="text-xs mt-1 text-red-500">20% Off regular price</p> */}
                             <p className="text-gray-600 text-xs mt-1">3 Reviews</p>
                             <p className="text-xs mt-1 text-red-500">If Project is complex then we will discuse further</p>
@@ -226,7 +226,7 @@ export default function NavigationBar() {
                             <p className="text-gray-600 text-xs mt-1">15 Days</p>
                         </div>
                         <div className="mt-6">
-                            <h3 className="text-gray-800 text-4xl font-semibold">$200</h3>
+                            <h3 className="text-gray-800 text-4xl font-semibold">$800</h3>
                             <p className="text-gray-600 text-xs mt-1">3 Reviews</p>
                             <p className="text-xs mt-1 text-red-500">If Project is complex then we will discuse further</p>
 
@@ -246,7 +246,7 @@ export default function NavigationBar() {
                             <p className="text-gray-600 text-xs mt-1">10 Days</p>
                         </div>
                         <div className="mt-6">
-                            <h3 className="text-gray-800 text-4xl font-semibold">$150</h3>
+                            <h3 className="text-gray-800 text-4xl font-semibold">$699</h3>
                             <p className="text-gray-600 text-xs mt-1">5 Reviews</p>
                             <p className="text-xs mt-1 text-red-500">If Project is complex then we will discuse further</p>
 
