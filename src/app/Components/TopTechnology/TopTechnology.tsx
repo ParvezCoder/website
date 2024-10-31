@@ -27,7 +27,7 @@ const TopTechnology = () => {
                     {TopTechnology.map((items) => {
                         return (
 
-                            <div className="bg-gradient-to-b from-blue-800 to-blue-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                            <div key={items.title} className="bg-gradient-to-b from-blue-800 to-blue-600 text-white rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
                                 <Image src={items.imagee} alt={items.title} className="w-full h-64 object-cover" />
                                 <div className="p-6">
                                     <h3 className="text-2xl font-semibold mb-2">{items.title}</h3>
