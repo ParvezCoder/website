@@ -26,7 +26,7 @@ export default function RootLayout({
       <Navbar/>
       {children}
       <Footer/>
-      {/* <ChatBot/> */}
+      <ChatBot/>
       </body>
     </html>
     </>
