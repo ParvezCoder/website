@@ -8,7 +8,7 @@ const ChatBot: React.FC = () => {
   useEffect(() => {
     createChat({
       webhookUrl:
-        "https://parvezcoder.app.n8n.cloud/webhook/d022b500-16cc-49b9-aa14-2a0a50063d34/chat",
+        "https://parvezcoder.app.n8n.cloud/webhook/991c4c90-379d-43e8-af0c-7a06f8397052/chat",
       webhookConfig: {
         method: "POST",
         headers: {},
