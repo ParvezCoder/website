@@ -23,12 +23,12 @@ const ChatBot: React.FC = () => {
       showWelcomeScreen: false,
       defaultLanguage: "en",
       initialMessages: [
-        "👋 Hello! I'm Parvez AI Assistant.",
+        "👋 Hello! I'm Kenz TechnologyAI Assistant.",
         "How can I help you today?",
       ],
       i18n: {
         en: {
-          title: "🤖 Parvez AI Chatbot",
+          title: "🤖 Kenz Technology AI Chatbot",
           subtitle: "Ask me anything — I’m here to assist you 24/7!",
           footer: "Powered by n8n.io",
           getStarted: "Start Chat",
