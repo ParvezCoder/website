@@ -24,12 +24,12 @@ const ChatBot: React.FC = () => {
       showWelcomeScreen: false,
       defaultLanguage: "en",
       initialMessages: [
-        "👋 Hello! I'm AI Assistant of Parvez Ahmed.",
+        "👋 Hello! I'm AI Assistant of Johar Saif.",
         "How can I help you today?",
       ],
       i18n: {
         en: {
-          title: "🤖 AI Chatbot of Parvez Ahmed",
+          title: "🤖 AI Chatbot of Johar Saif",
           subtitle: "Ask me anything — I’m here to assist you 24/7!",
           footer: "Powered by n8n.io",
           getStarted: "Start Chat",
