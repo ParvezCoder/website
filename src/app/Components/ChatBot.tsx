@@ -29,7 +29,7 @@ const ChatBot: React.FC = () => {
       ],
       i18n: {
         en: {
-          title: "🤖 AI Chatbot of Muhammad ALi",
+          title: "🤖 AI Chatbot of M. ALi",
           subtitle: "Ask me anything — I’m here to assist you 24/7!",
           footer: "Powered by n8n.io",
           getStarted: "Start Chat",
