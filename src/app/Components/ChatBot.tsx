@@ -24,7 +24,7 @@ const ChatBot: React.FC = () => {
       showWelcomeScreen: false,
       defaultLanguage: "en",
       initialMessages: [
-        "👋 Hello! I'm AI Assistant of Muhammad ALi.",
+        "👋 Hello! I'm AI Assistant of M. ALi.",
         "How can I help you today?",
       ],
       i18n: {
