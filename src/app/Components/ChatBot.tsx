@@ -8,9 +8,9 @@ const ChatBot: React.FC = () => {
   useEffect(() => {
     createChat({
       webhookUrl:
-        // "https://n8ncoder.app.n8n.cloud/webhook/991c4c90-379d-43e8-af0c-7a06f8397052/chat",
-        "https://coderr.app.n8n.cloud/webhook/991c4c90-379d-43e8-af0c-7a06f8397052/chat",
-      webhookConfig: {
+        // "https://coderr.app.n8n.cloud/webhook/991c4c90-379d-43e8-af0c-7a06f8397052/chat",
+        "https://coder4.app.n8n.cloud/webhook/991c4c90-379d-43e8-af0c-7a06f8397052/chat",
+        webhookConfig: {
         method: "POST",
         headers: {},
       },
@@ -24,14 +24,14 @@ const ChatBot: React.FC = () => {
       showWelcomeScreen: false,
       defaultLanguage: "en",
       initialMessages: [
-        "👋 Hello! I'm AI Assistant of M. ALi.",
+        "👋 Hello! I'm A.I Assistant of Parvez Ahmed.",
         "How can I help you today?",
       ],
       i18n: {
         en: {
-          title: "🤖 AI Chatbot of M. ALi",
+          title: "🤖 AI Chatbot of Parvez Ahmed",
           subtitle: "Ask me anything — I’m here to assist you 24/7!",
-          footer: "Powered by n8n.io",
+          footer: "Powered by ReXson Solution",
           getStarted: "Start Chat",
           inputPlaceholder: "Type your question here...",
           closeButtonTooltip: "Close chat", // ✅ Added this line
