@@ -25,12 +25,13 @@ const ChatBot: React.FC = () => {
       defaultLanguage: "en",
       initialMessages: [
         "👋 Hello! I'm A.I Assistant of Parvez Ahmed.",
-        "How can I help you today?",
+        // "How can I help you today?",
       ],
       i18n: {
         en: {
           title: "🤖 AI Chatbot of Parvez Ahmed",
-          subtitle: "Ask me anything — I’m here to assist you 24/7!",
+          subtitle: "",
+          // subtitle: "Ask me anything — I’m here to assist you 24/7!",
           footer: "Powered by ReXson Solution",
           getStarted: "Start Chat",
           inputPlaceholder: "Type your question here...",
