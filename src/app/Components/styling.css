@@ -5,10 +5,10 @@
 /* 🌐 Root Variables */
 :root {
   /* 🎨 Brand / Accent */
-  --chat--color--primary: #5b09e9;
-  --chat--color--primary-shade-50: #5d06e9;
-  --chat--color--primary--shade-100: #5b21b6;
-  --chat--color--secondary: #0bf0d1;
+  --chat--color--primary: #e9093a;
+  --chat--color--primary-shade-50: #e90624;
+  --chat--color--primary--shade-100: #b6215f;
+  --chat--color--secondary: #5e0909;
 
   /* 🖤 Core Dark Colors */
   --chat--color-white: #0b0f19;
@@ -39,8 +39,8 @@
   --chat--header--padding: 1rem;
   --chat--header--background: linear-gradient(
     135deg,
-    #7c3aed,
-    #22d3ee
+    #ed3a52,
+    #ee2222
   );
   --chat--header--color: #ffffff;
   --chat--heading--font-size: 1.1rem;
@@ -53,8 +53,8 @@
   --chat--message--bot--color: #e5e7eb;
   --chat--message--user--background: linear-gradient(
     135deg,
-    #7c3aed,
-    #22d3ee
+    #ed3a52,
+    #ee2222
   );
   --chat--message--user--color: #ffffff;
   --chat--message--margin-bottom: 0.75rem;
@@ -68,18 +68,18 @@
   --chat--input--placeholder--font-size: 0.9rem;
 
   /* 🚀 Buttons */
-  --chat--button--background--primary: #7c3aed;
-  --chat--button--background--primary--hover: #6d28d9;
+  --chat--button--background--primary: #fd0404;
+  --chat--button--background--primary--hover: #790c0c;
   --chat--button--color--primary: #ffffff;
 
   /* 🎯 Floating Toggle */
   --chat--toggle--size: 60px;
   --chat--toggle--background: linear-gradient(
     135deg,
-    #7c3aed,
-    #22d3ee
+    #ed3a3a,
+    #ee22bb
   );
-  --chat--toggle--hover--background: #6d28d9;
+  --chat--toggle--hover--background: #8b0b31;
   --chat--toggle--color: #ffffff;
 
   /* 📦 Body / Footer */
